@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "cypress run",
+    "test:login": "cypress run --spec cypress/e2e/orangehrm/login.cy.js",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}
