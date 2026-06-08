@@ -1,10 +1,11 @@
 {
-  "scripts": {
-    "test": "cypress run",
-    "test:login": "cypress run --spec cypress/e2e/orangehrm/login.cy.js",
-    "cypress:open": "cypress open"
-  },
-  "devDependencies": {
-    "cypress": "^15.16.0"
-  }
+    "scripts":  {
+                    "test":  "cypress run",
+                    "test:login":  "cypress run --spec cypress/e2e/orangehrm/login.cy.js",
+                    "cypress:open":  "cypress open",
+                    "test:login-intercept":  "cypress run --spec cypress/e2e/orangehrm-intercept/login-intercept.cy.js"
+                },
+    "devDependencies":  {
+                            "cypress":  "^15.16.0"
+                        }
 }
