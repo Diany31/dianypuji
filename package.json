@@ -3,7 +3,8 @@
                     "test":  "cypress run",
                     "test:login":  "cypress run --spec cypress/e2e/orangehrm/login.cy.js",
                     "cypress:open":  "cypress open",
-                    "test:login-intercept":  "cypress run --spec cypress/e2e/orangehrm-intercept/login-intercept.cy.js"
+                    "test:login-intercept":  "cypress run --spec cypress/e2e/orangehrm-intercept/login-intercept.cy.js",
+                    "test:login-pom":  "cypress run --spec cypress/e2e/orangehrm-pom/login-pom.cy.js"
                 },
     "devDependencies":  {
                             "cypress":  "^15.16.0"

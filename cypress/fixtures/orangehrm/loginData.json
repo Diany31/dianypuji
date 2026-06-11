@@ -1,0 +1,38 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUsernameUser": {
+    "username": "SalahUser",
+    "password": "admin123"
+  },
+  "invalidPasswordUser": {
+    "username": "Admin",
+    "password": "salahpassword"
+  },
+  "invalidCredentialUser": {
+    "username": "SalahUser",
+    "password": "SalahPass123"
+  },
+  "caseSensitiveUser": {
+    "username": "admin",
+    "password": "Admin123"
+  },
+  "spaceUser": {
+    "username": " Admin ",
+    "password": " admin123 "
+  },
+  "sqlInjectionUser": {
+    "username": "' OR '1'='1",
+    "password": "' OR '1'='1"
+  },
+  "specialCharacterUser": {
+    "username": "!@#$%^&*()",
+    "password": "!@#$%^&*()"
+  },
+  "emptyUser": {
+    "username": "",
+    "password": ""
+  }
+}
