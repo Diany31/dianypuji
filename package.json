@@ -1,0 +1,14 @@
+{
+  "name": "orangehrm-demo-pom-intercept",
+  "version": "1.0.0",
+  "description": "Automation tests for OrangeHRM demo using Cypress, Page Object Model, and intercept.",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

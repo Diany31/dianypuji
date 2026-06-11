@@ -1,0 +1,14 @@
+{
+  "validCandidate": {
+    "firstName": "Andi",
+    "middleName": "QA",
+    "lastName": "Saputra",
+    "email": "andi.qa.saputra@example.com",
+    "contactNumber": "081234567890"
+  },
+  "invalidEmailCandidate": {
+    "firstName": "Budi",
+    "lastName": "Tester",
+    "email": "email-tidak-valid"
+  }
+}
